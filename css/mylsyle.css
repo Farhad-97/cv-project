@@ -10,7 +10,7 @@ body{
 }
 /* container style */
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     background-color: #eee;
     margin: 0 auto;
     padding: 20px;
@@ -58,4 +58,51 @@ hr {
    width: 100%;
    margin: auto;
    border-bottom: none; 
+}
+/* personal section */
+
+.content {
+    margin-bottom: 20px;
+}
+.left-div {
+    width: 20%;
+    float: left;
+}
+.right-div {
+    width: 80%;
+    float: left;
+    text-align: justify;
+}
+.common-hr {
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Education section part */
+.edu-template-left {
+    float: left;
+    width: 45%;
+}
+.edu-template-right {
+    float: right;
+    width: 45%;
+}
+/* footer style */
+.bottom-container {
+    background-color: rgb(80, 79, 79);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.bottom-container a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.bottom-container p {
+    color: white;
 }
